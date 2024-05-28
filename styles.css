@@ -1,22 +1,22 @@
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #1c3e47; /* Dark background color */
-    color: #ecf0f1; /* Light text color */
+    background-color: #1c3e47; 
+    color: #ecf0f1; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 /* Navigation bar */
-.navbar {
-    background-color: #000000; /* Very dark black background color */
+.navbar 
+    background-color: #000000; 
     margin-bottom: 40px;
 }
 
 /* Form container */
 .form-container {
-    background-color: #34495e; /* Dark blue-grey background color */
+    background-color: #34495e; 
     padding: 30px;
     border-radius: 10px;
     width: 100%;
@@ -33,11 +33,10 @@ body {
     text-align: left;
 }
 
-/* Adjust input field appearance */
 .form-control {
-    background-color: #ecf0f1; /* Light background color for inputs */
+    background-color: #ecf0f1; 
     border: none;
-    color: #2c3e50; /* Dark text color */
+    color: #2c3e50; 
 }
 
 /* Custom button */
@@ -53,7 +52,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #000000; /* Very dark black background color */
+    background-color: #000000; 
     color: white;
     padding: 20px;
     text-align: center;
