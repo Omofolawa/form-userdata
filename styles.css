@@ -1,0 +1,72 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c3e47; /* Dark background color */
+    color: #ecf0f1; /* Light text color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #000000; /* Very dark black background color */
+    margin-bottom: 40px;
+}
+
+/* Form container */
+.form-container {
+    background-color: #34495e; /* Dark blue-grey background color */
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Center the form content */
+.form-container form {
+    text-align: center;
+}
+
+.form-container .form-group {
+    text-align: left;
+}
+
+/* Adjust input field appearance */
+.form-control {
+    background-color: #ecf0f1; /* Light background color for inputs */
+    border: none;
+    color: #2c3e50; /* Dark text color */
+}
+
+/* Custom button */
+.btn-custom {
+    background-color: #ecf0f1;
+    color: #2c3e50; /* Dark text color */
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #d3d3d3; /* Light grey hover effect */
+}
+
+/* Footer */
+.footer {
+    background-color: #000000; /* Very dark black background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #d3d3d3; /* Light grey hover effect */
+}

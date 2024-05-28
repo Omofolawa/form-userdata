@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Basic Form</a>
+    </nav>
+
+    <div class="container d-flex justify-content-center">
+        <div class="form-container text-center">
+            <h4>Submit Form</h4><hr><br>
+            <form action="/submit_form" method="post">
+                <div class="form-group">
+                    <label for="fname">First Name:</label>
+                    <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter your first name" required>
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" class="form-control" id="lname" name="lname" placeholder="Enter your last name" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="text-right">
+                    <button type="submit" class="btn btn-custom">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div><br><br>
+
+    <div class="footer">
+        <p>Diabolic Curiosity!</p>
+        <a href="mailto:your.email@example.com">Email</a>
+        <a href="https://github.com/yourusername">GitHub</a>
+    </div>
+</body>
+</html>
